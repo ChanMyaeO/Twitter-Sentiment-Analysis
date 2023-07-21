@@ -11,7 +11,7 @@ import streamlit as st
 
 from transformers import BertTokenizer, BertForSequenceClassification
 tokenizer = BertTokenizer.from_pretrained('google/bert_uncased_L-8_H-512_A-8')
-model = BertForSequenceClassification.from_pretrained("/Users/home/Desktop/My Project/Twitter Sentiment Analysis/Model")
+model = BertForSequenceClassification.from_pretrained("Model")
 
 #Removing stop-words and converting words to lemma
 
