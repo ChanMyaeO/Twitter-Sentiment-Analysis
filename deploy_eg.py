@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 import contractions
 import streamlit as st
+nltk.download('all')
 
 from transformers import BertTokenizer, BertForSequenceClassification
 tokenizer = BertTokenizer.from_pretrained('google/bert_uncased_L-8_H-512_A-8')
